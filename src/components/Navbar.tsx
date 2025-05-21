@@ -47,9 +47,9 @@ const Navbar: React.FC = () => {
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lovable-uploads/0b5cf741-a8da-4919-8bb3-01947d9764d5.png" 
+            src="/lovable-uploads/4ef970f8-45c1-4662-a0e2-faa7a9b31070.png" 
             alt="Faserkabel DG GmbH Logo" 
-            className="h-12 md:h-16"
+            className="h-14 md:h-20"
           />
         </Link>
 

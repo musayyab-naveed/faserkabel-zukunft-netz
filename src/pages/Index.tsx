@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 const Index: React.FC = () => {
   const location = useLocation();
 
-  // Handle hash links for smooth scroll on initial page load
+  // Handle hash links for smooth scroll on page load
   useEffect(() => {
     if (location.hash) {
       setTimeout(() => {
@@ -22,6 +22,8 @@ const Index: React.FC = () => {
           element.scrollIntoView({ behavior: 'smooth' });
         }
       }, 100);
+    } else {
+      window.scrollTo(0, 0);
     }
   }, [location]);
 

@@ -36,8 +36,8 @@ const AboutSection: React.FC = () => {
             <div className="relative w-full max-w-md">
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-brand-green rounded-lg"></div>
               <img 
-                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80" 
-                alt="Glasfasertechnik Spezialist" 
+                src="/lovable-uploads/9e714934-1408-43fc-b218-31933671c2d9.png" 
+                alt="Glasfasertechniker bei der Arbeit" 
                 className="rounded-lg shadow-xl w-full h-auto object-cover relative z-10"
               />
             </div>

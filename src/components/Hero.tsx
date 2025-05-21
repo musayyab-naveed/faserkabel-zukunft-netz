@@ -31,8 +31,8 @@ const Hero: React.FC = () => {
           
           <div className="hidden lg:block">
             <img 
-              src="https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80" 
-              alt="Glasfasertechnik" 
+              src="/lovable-uploads/0b7dfff9-d1ec-48fe-9cee-37968c52601d.png" 
+              alt="Glasfasertechnik Mitarbeiter mit Sicherheitshelm" 
               className="rounded-lg shadow-xl w-full h-auto object-cover"
             />
           </div>

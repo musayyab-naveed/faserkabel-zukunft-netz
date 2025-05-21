@@ -25,37 +25,37 @@ const References: React.FC = () => {
               <ProjectCard 
                 title="Breitbandausbau Gemeinde" 
                 category="FTTH-Nachanschlüsse"
-                imageUrl="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80"
+                imageUrl="/lovable-uploads/dc416d32-5f96-47ba-8e26-ff4e9d9277e5.png"
                 description="Realisierung von über 200 FTTH-Anschlüssen in einer ländlichen Gemeinde. Komplette Umsetzung von der Planung bis zur Inbetriebnahme."
               />
               <ProjectCard 
                 title="Gewerbegebiet-Vernetzung" 
                 category="Glasfaser Einblasen"
-                imageUrl="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&q=80"
+                imageUrl="/lovable-uploads/4735ee13-f9bd-4423-bd6c-1cc65bed8a2a.png"
                 description="Vernetzung eines Gewerbegebiets mit Hochleistungs-Glasfaserkabeln. Installation von über 5 km Glasfaserstrecke und zugehöriger Infrastruktur."
               />
               <ProjectCard 
                 title="Bürogebäude Modernisierung" 
                 category="Inhouse-Verkabelung"
-                imageUrl="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&q=80"
+                imageUrl="/lovable-uploads/db4aca4c-ed5a-470d-b7e1-6b1b01accd97.png"
                 description="Vollständige Erneuerung der Netzwerkinfrastruktur eines 6-stöckigen Bürogebäudes mit strukturierter Glasfaserverkabelung."
               />
               <ProjectCard 
                 title="Gemeinde-Backbone" 
                 category="Spleißen & Montage"
-                imageUrl="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&q=80"
+                imageUrl="/lovable-uploads/9e714934-1408-43fc-b218-31933671c2d9.png"
                 description="Installation und Spleißen des Backbone-Netzwerks für eine mittelgroße Gemeinde. Über 500 Spleißverbindungen mit höchster Präzision."
               />
               <ProjectCard 
                 title="Schulcampus-Vernetzung" 
                 category="Glasfaser Einblasen"
-                imageUrl="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80"
+                imageUrl="/lovable-uploads/dc416d32-5f96-47ba-8e26-ff4e9d9277e5.png"
                 description="Vollständige Vernetzung eines Schulcampus mit 5 Gebäuden. Einblasen von Mikrokabeln und Installation von Verteilern."
               />
               <ProjectCard 
                 title="Industriegebiet Wartung" 
                 category="Netz-Wartung & Messung"
-                imageUrl="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80"
+                imageUrl="/lovable-uploads/62c1ed95-fc65-4cca-8831-cb8406a8d435.png"
                 description="Laufende Wartung und Prüfung der Glasfaserinfrastruktur eines großen Industriegebiets. Regelmäßige OTDR-Messungen und Fehlerbehebung."
               />
             </div>
@@ -65,16 +65,46 @@ const References: React.FC = () => {
               <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">Unsere Kunden</h2>
               
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-                {[...Array(10)].map((_, i) => (
-                  <div 
-                    key={i} 
-                    className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4"
-                  >
-                    <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
-                      <span className="text-gray-500">Kundenlogo</span>
-                    </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <img src="/lovable-uploads/831bd765-f09a-435f-b080-98a40678821c.png" alt="Sumitomo Electric" className="max-h-full max-w-full" />
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <img src="/lovable-uploads/46f6ea96-6e35-4e27-a8d9-c487a93796da.png" alt="Opternus" className="max-h-full max-w-full" />
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <img src="/lovable-uploads/87107b4c-281d-41f1-8faa-d576ad7cd760.png" alt="Hilti" className="max-h-full max-w-full" />
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <img src="/lovable-uploads/48b5aeb9-724d-4cb5-bb71-85a557abc2e2.png" alt="Kaeser Kompressoren" className="max-h-full max-w-full" />
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <img src="/lovable-uploads/a0599622-8a51-412c-bd8c-6a0eeb7253de.png" alt="Würth" className="max-h-full max-w-full" />
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
+                    <span className="text-gray-500">Weitere Kunden</span>
                   </div>
-                ))}
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
+                    <span className="text-gray-500">Weitere Kunden</span>
+                  </div>
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
+                    <span className="text-gray-500">Weitere Kunden</span>
+                  </div>
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
+                    <span className="text-gray-500">Weitere Kunden</span>
+                  </div>
+                </div>
+                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
+                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
+                    <span className="text-gray-500">Weitere Kunden</span>
+                  </div>
+                </div>
               </div>
             </div>
 

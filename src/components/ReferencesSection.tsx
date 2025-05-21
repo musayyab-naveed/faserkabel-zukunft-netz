@@ -17,17 +17,17 @@ const ReferencesSection: React.FC = () => {
           <ReferenceCard 
             title="Breitbandausbau Gemeinde" 
             category="FTTH-Nachanschlüsse"
-            imageUrl="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80"
+            imageUrl="/lovable-uploads/dc416d32-5f96-47ba-8e26-ff4e9d9277e5.png"
           />
           <ReferenceCard 
             title="Gewerbegebiet-Vernetzung" 
             category="Glasfaser Einblasen"
-            imageUrl="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&q=80"
+            imageUrl="/lovable-uploads/4735ee13-f9bd-4423-bd6c-1cc65bed8a2a.png"
           />
           <ReferenceCard 
             title="Bürogebäude Modernisierung" 
             category="Inhouse-Verkabelung"
-            imageUrl="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&q=80"
+            imageUrl="/lovable-uploads/db4aca4c-ed5a-470d-b7e1-6b1b01accd97.png"
           />
         </div>
 
@@ -40,12 +40,22 @@ const ReferencesSection: React.FC = () => {
         {/* Client Logos */}
         <div className="mt-20">
           <h3 className="text-xl font-semibold mb-8 text-center">Unsere Kunden</h3>
-          <div className="flex flex-wrap justify-center gap-8 items-center opacity-70">
-            <div className="w-32 h-12 bg-gray-300 rounded flex items-center justify-center">Logo</div>
-            <div className="w-32 h-12 bg-gray-300 rounded flex items-center justify-center">Logo</div>
-            <div className="w-32 h-12 bg-gray-300 rounded flex items-center justify-center">Logo</div>
-            <div className="w-32 h-12 bg-gray-300 rounded flex items-center justify-center">Logo</div>
-            <div className="w-32 h-12 bg-gray-300 rounded flex items-center justify-center">Logo</div>
+          <div className="flex flex-wrap justify-center gap-8 items-center">
+            <div className="w-32 h-16 flex items-center justify-center">
+              <img src="/lovable-uploads/831bd765-f09a-435f-b080-98a40678821c.png" alt="Sumitomo Electric" className="max-h-full max-w-full" />
+            </div>
+            <div className="w-32 h-16 flex items-center justify-center">
+              <img src="/lovable-uploads/46f6ea96-6e35-4e27-a8d9-c487a93796da.png" alt="Opternus" className="max-h-full max-w-full" />
+            </div>
+            <div className="w-32 h-16 flex items-center justify-center">
+              <img src="/lovable-uploads/87107b4c-281d-41f1-8faa-d576ad7cd760.png" alt="Hilti" className="max-h-full max-w-full" />
+            </div>
+            <div className="w-40 h-16 flex items-center justify-center">
+              <img src="/lovable-uploads/48b5aeb9-724d-4cb5-bb71-85a557abc2e2.png" alt="Kaeser Kompressoren" className="max-h-full max-w-full" />
+            </div>
+            <div className="w-32 h-16 flex items-center justify-center">
+              <img src="/lovable-uploads/a0599622-8a51-412c-bd8c-6a0eeb7253de.png" alt="Würth" className="max-h-full max-w-full" />
+            </div>
           </div>
         </div>
       </div>

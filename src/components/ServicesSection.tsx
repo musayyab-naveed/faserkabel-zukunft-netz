@@ -24,31 +24,31 @@ const ServicesSection: React.FC = () => {
           <ServiceCard 
             title="Glasfaser Einblasen" 
             description="Modernste Einblastechnologien für Rohrverbände und Speedpipes."
-            imageUrl="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80"
+            imageUrl="/lovable-uploads/dc416d32-5f96-47ba-8e26-ff4e9d9277e5.png"
             to="/services#einblasen"
           />
           <ServiceCard 
             title="Spleißen & Montage" 
             description="Präzise LWL-Verbindungen für stabile Netzwerke."
-            imageUrl="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80"
+            imageUrl="/lovable-uploads/9e714934-1408-43fc-b218-31933671c2d9.png"
             to="/services#spleissen"
           />
           <ServiceCard 
             title="FTTH-Nachanschlüsse" 
             description="Nachträgliche Anschlüsse an bestehende Netz-Infrastrukturen."
-            imageUrl="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&q=80"
+            imageUrl="/lovable-uploads/4735ee13-f9bd-4423-bd6c-1cc65bed8a2a.png"
             to="/services#ftth"
           />
           <ServiceCard 
             title="Inhouse-Verkabelung" 
             description="Vom APL bis zum Router – strukturierte Verkabelung im Gebäude."
-            imageUrl="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&q=80"
+            imageUrl="/lovable-uploads/db4aca4c-ed5a-470d-b7e1-6b1b01accd97.png"
             to="/services#inhouse"
           />
           <ServiceCard 
             title="Netz-Wartung & Messung" 
             description="OTDR-Messung, Fehlersuche, Dokumentation und Instandhaltung."
-            imageUrl="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&q=80"
+            imageUrl="/lovable-uploads/62c1ed95-fc65-4cca-8831-cb8406a8d435.png"
             to="/services#wartung"
           />
           <div className="flex items-center justify-center bg-white p-8 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">

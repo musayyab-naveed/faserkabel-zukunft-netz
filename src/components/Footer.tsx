@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
               <img 
                 src="/lovable-uploads/0b5cf741-a8da-4919-8bb3-01947d9764d5.png" 
                 alt="Faserkabel DG GmbH Logo" 
-                className="h-16"
+                className="h-20"
               />
             </Link>
             <p className="text-gray-300 mb-4">
