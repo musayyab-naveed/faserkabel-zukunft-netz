@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +97,28 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-medium;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brand-blue text-white hover:bg-opacity-90 px-6 py-3 rounded-md font-medium transition duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-brand-green text-white hover:bg-opacity-90 px-6 py-3 rounded-md font-medium transition duration-300;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 }
