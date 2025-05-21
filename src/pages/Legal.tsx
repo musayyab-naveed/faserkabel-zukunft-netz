@@ -17,17 +17,17 @@ const Legal: React.FC = () => {
           </div>
         </div>
 
-        <section className="section-padding">
+        <section className="section-padding" id="impressum">
           <div className="container-custom">
             <div className="bg-white rounded-lg shadow-md p-6 md:p-8 mb-12">
-              <h2 className="text-2xl font-bold mb-6" id="impressum">Impressum</h2>
+              <h2 className="text-2xl font-bold mb-6">Impressum</h2>
               
               <div className="space-y-4">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Angaben gemäß § 5 TMG</h3>
                   <p>Faserkabel DG GmbH<br />
                   Wasserfuhr 1<br />
-                  D-32108 Bad Salzuflen</p>
+                  32108 Bad Salzuflen</p>
                 </div>
                 
                 <div>
@@ -37,8 +37,9 @@ const Legal: React.FC = () => {
                 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Kontakt</h3>
-                  <p>Telefon: 05222 / 123456<br />
-                  E-Mail: info@faserkabel-dg.de</p>
+                  <p>Mobil: 0160 7777 99 7<br />
+                  E-Mail: info@faserkabel.de<br />
+                  Web: www.faserkabel.de</p>
                 </div>
                 
                 <div>
@@ -49,15 +50,16 @@ const Legal: React.FC = () => {
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Umsatzsteuer-ID</h3>
-                  <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
+                  <h3 className="text-xl font-semibold mb-2">Steuerdaten</h3>
+                  <p>Steuernummer: 313/5728/2197<br />
+                  Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
                   DE123456789</p>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white rounded-lg shadow-md p-6 md:p-8">
-              <h2 className="text-2xl font-bold mb-6" id="datenschutz">Datenschutzerklärung</h2>
+            <div className="bg-white rounded-lg shadow-md p-6 md:p-8" id="datenschutz">
+              <h2 className="text-2xl font-bold mb-6">Datenschutzerklärung</h2>
               
               <div className="space-y-6">
                 <div>

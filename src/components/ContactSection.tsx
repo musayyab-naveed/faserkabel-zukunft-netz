@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Globe } from 'lucide-react';
 
 const ContactSection: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -125,21 +125,29 @@ const ContactSection: React.FC = () => {
                 <ContactItem 
                   icon={<MapPin className="h-6 w-6 text-brand-green" />}
                   title="Adresse"
-                  content="Wasserfuhr 1, D-32108 Bad Salzuflen"
+                  content="Wasserfuhr 1, 32108 Bad Salzuflen"
                 />
                 <ContactItem 
                   icon={<Mail className="h-6 w-6 text-brand-green" />}
                   title="E-Mail"
-                  content="info@faserkabel-dg.de"
+                  content="info@faserkabel.de"
                   isLink
-                  linkHref="mailto:info@faserkabel-dg.de"
+                  linkHref="mailto:info@faserkabel.de"
                 />
                 <ContactItem 
                   icon={<Phone className="h-6 w-6 text-brand-green" />}
                   title="Telefon"
-                  content="05222 / 123456"
+                  content="0160 7777 99 7"
                   isLink
-                  linkHref="tel:05222123456"
+                  linkHref="tel:01607777997"
+                />
+                <ContactItem 
+                  icon={<Globe className="h-6 w-6 text-brand-green" />}
+                  title="Website"
+                  content="www.faserkabel.de"
+                  isLink
+                  linkHref="https://www.faserkabel.de"
+                  external
                 />
               </div>
             </div>
@@ -161,13 +169,18 @@ const ContactItem: React.FC<{
   content: string;
   isLink?: boolean;
   linkHref?: string;
-}> = ({ icon, title, content, isLink = false, linkHref = "#" }) => (
+  external?: boolean;
+}> = ({ icon, title, content, isLink = false, linkHref = "#", external = false }) => (
   <div className="flex items-start">
     <div className="mr-4 mt-1">{icon}</div>
     <div>
       <h4 className="font-medium text-gray-800">{title}</h4>
       {isLink ? (
-        <a href={linkHref} className="text-brand-blue hover:underline">
+        <a 
+          href={linkHref} 
+          className="text-brand-blue hover:underline"
+          {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+        >
           {content}
         </a>
       ) : (

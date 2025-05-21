@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div>
             <Link to="/" className="inline-block mb-6">
               <img 
-                src="/lovable-uploads/2e06c016-47b0-40e1-8a63-c30a4cc69f66.png" 
+                src="/lovable-uploads/0b5cf741-a8da-4919-8bb3-01947d9764d5.png" 
                 alt="Faserkabel DG GmbH Logo" 
                 className="h-16"
               />
@@ -50,16 +50,21 @@ const Footer: React.FC = () => {
             <address className="not-italic text-gray-300">
               <p className="mb-2">Faserkabel DG GmbH</p>
               <p className="mb-2">Wasserfuhr 1</p>
-              <p className="mb-2">D-32108 Bad Salzuflen</p>
+              <p className="mb-2">32108 Bad Salzuflen</p>
             </address>
             <p className="mb-1 mt-4">
-              <a href="mailto:info@faserkabel-dg.de" className="text-gray-300 hover:text-brand-green transition">
-                info@faserkabel-dg.de
+              <a href="mailto:info@faserkabel.de" className="text-gray-300 hover:text-brand-green transition">
+                info@faserkabel.de
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="tel:01607777997" className="text-gray-300 hover:text-brand-green transition">
+                0160 7777 99 7
               </a>
             </p>
             <p>
-              <a href="tel:05222123456" className="text-gray-300 hover:text-brand-green transition">
-                05222 / 123456
+              <a href="https://www.faserkabel.de" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-brand-green transition">
+                www.faserkabel.de
               </a>
             </p>
           </div>

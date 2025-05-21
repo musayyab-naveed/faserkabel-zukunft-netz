@@ -1,11 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
 
   // Handle scroll effect
   useEffect(() => {
@@ -23,6 +24,16 @@ const Navbar: React.FC = () => {
     };
   }, []);
 
+  // Handle hash links for smooth scroll
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -36,7 +47,7 @@ const Navbar: React.FC = () => {
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lovable-uploads/2e06c016-47b0-40e1-8a63-c30a4cc69f66.png" 
+            src="/lovable-uploads/0b5cf741-a8da-4919-8bb3-01947d9764d5.png" 
             alt="Faserkabel DG GmbH Logo" 
             className="h-12 md:h-16"
           />
