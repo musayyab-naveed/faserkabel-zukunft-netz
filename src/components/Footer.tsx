@@ -26,7 +26,6 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">Navigation</h3>
             <ul className="space-y-2">
               <FooterLink to="/">Startseite</FooterLink>
-              <FooterLink to="/about">Über uns</FooterLink>
               <FooterLink to="/services">Leistungen</FooterLink>
               <FooterLink to="/references">Referenzen</FooterLink>
               <FooterLink to="/career">Karriere</FooterLink>

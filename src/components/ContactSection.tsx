@@ -152,9 +152,19 @@ const ContactSection: React.FC = () => {
               </div>
             </div>
             
-            {/* Map Placeholder */}
-            <div className="bg-gray-200 rounded-lg shadow-md h-64 flex items-center justify-center">
-              <p className="text-gray-600">Google Maps wird hier eingebunden</p>
+            {/* Map */}
+            <div className="rounded-lg shadow-md overflow-hidden h-64">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.1019653987705!2d8.755927076906147!3d52.07787366886875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba6adf4d6f867b%3A0x3c8eec8c8aa54412!2sWasserfuhr%201%2C%2032108%20Bad%20Salzuflen!5e0!3m2!1sen!2sde!4v1761297170825!5m2!1sen!2sde"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full"
+                title="Google Maps Standort Faserkabel DG GmbH"
+              />
             </div>
           </div>
         </div>

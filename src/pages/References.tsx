@@ -80,31 +80,6 @@ const References: React.FC = () => {
                 <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
                   <img src="/lovable-uploads/a0599622-8a51-412c-bd8c-6a0eeb7253de.png" alt="Würth" className="max-h-full max-w-full" />
                 </div>
-                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
-                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
-                    <span className="text-gray-500">Weitere Kunden</span>
-                  </div>
-                </div>
-                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
-                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
-                    <span className="text-gray-500">Weitere Kunden</span>
-                  </div>
-                </div>
-                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
-                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
-                    <span className="text-gray-500">Weitere Kunden</span>
-                  </div>
-                </div>
-                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
-                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
-                    <span className="text-gray-500">Weitere Kunden</span>
-                  </div>
-                </div>
-                <div className="h-24 bg-white rounded-lg shadow-md flex items-center justify-center p-4">
-                  <div className="w-full h-12 bg-gray-200 rounded flex items-center justify-center">
-                    <span className="text-gray-500">Weitere Kunden</span>
-                  </div>
-                </div>
               </div>
             </div>
 

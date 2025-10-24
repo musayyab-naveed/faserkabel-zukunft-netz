@@ -56,7 +56,6 @@ const Navbar: React.FC = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
           <NavLink to="/">Startseite</NavLink>
-          <NavLink to="/about">Über uns</NavLink>
           <NavLink to="/services">Leistungen</NavLink>
           <NavLink to="/references">Referenzen</NavLink>
           <NavLink to="/career">Karriere</NavLink>
@@ -84,7 +83,6 @@ const Navbar: React.FC = () => {
         <div className="md:hidden bg-white w-full absolute top-full left-0 shadow-md">
           <div className="container-custom py-4 flex flex-col space-y-4">
             <MobileNavLink to="/" onClick={toggleMenu}>Startseite</MobileNavLink>
-            <MobileNavLink to="/about" onClick={toggleMenu}>Über uns</MobileNavLink>
             <MobileNavLink to="/services" onClick={toggleMenu}>Leistungen</MobileNavLink>
             <MobileNavLink to="/references" onClick={toggleMenu}>Referenzen</MobileNavLink>
             <MobileNavLink to="/career" onClick={toggleMenu}>Karriere</MobileNavLink>
