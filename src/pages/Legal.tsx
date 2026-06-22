@@ -26,7 +26,7 @@ const Legal: React.FC = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Angaben gemäß § 5 TMG</h3>
                   <p>Faserkabel DG GmbH<br />
-                  Wasserfuhr 1<br />
+                  Uferstraße 48<br />
                   32108 Bad Salzuflen</p>
                 </div>
                 
@@ -37,8 +37,7 @@ const Legal: React.FC = () => {
                 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Kontakt</h3>
-                  <p>Mobil: 0160 7777 99 7<br />
-                  E-Mail: info@faserkabel.de<br />
+                  <p>E-Mail: info@faserkabel.de<br />
                   Web: www.faserkabel.de</p>
                 </div>
                 
@@ -74,10 +73,9 @@ const Legal: React.FC = () => {
                   <p className="mb-2 text-gray-700">
                     Verantwortlich für die Datenverarbeitung auf dieser Website ist:<br />
                     Faserkabel DG GmbH<br />
-                    Wasserfuhr 1<br />
+                    Uferstraße 48<br />
                     D-32108 Bad Salzuflen<br />
-                    Telefon: 05222 / 123456<br />
-                    E-Mail: info@faserkabel-dg.de
+                    E-Mail: info@faserkabel.de
                   </p>
                 </div>
                 
@@ -116,7 +114,7 @@ const Legal: React.FC = () => {
                   <h3 className="text-xl font-semibold mb-2">7. Fragen an den Datenschutzbeauftragten</h3>
                   <p className="mb-2 text-gray-700">
                     Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation:<br />
-                    E-Mail: datenschutz@faserkabel-dg.de
+                    E-Mail: datenschutz@faserkabel.de
                   </p>
                 </div>
               </div>

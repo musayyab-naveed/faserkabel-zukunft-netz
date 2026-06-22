@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Mail, Phone, MapPin, Globe } from 'lucide-react';
+import { Mail, MapPin, Globe } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -59,23 +59,16 @@ const Contact: React.FC = () => {
                     <ContactItem 
                       icon={<MapPin className="h-6 w-6 text-brand-green" />}
                       title="Adresse"
-                      content="Wasserfuhr 1, 32108 Bad Salzuflen"
+                      content="Uferstraße 48, 32108 Bad Salzuflen"
                     />
-                    <ContactItem 
+                    <ContactItem
                       icon={<Mail className="h-6 w-6 text-brand-green" />}
                       title="E-Mail"
                       content="info@faserkabel.de"
                       isLink
                       linkHref="mailto:info@faserkabel.de"
                     />
-                    <ContactItem 
-                      icon={<Phone className="h-6 w-6 text-brand-green" />}
-                      title="Telefon"
-                      content="0160 7777 99 7"
-                      isLink
-                      linkHref="tel:01607777997"
-                    />
-                    <ContactItem 
+                    <ContactItem
                       icon={<Globe className="h-6 w-6 text-brand-green" />}
                       title="Website"
                       content="www.faserkabel.de"
@@ -220,7 +213,7 @@ const Contact: React.FC = () => {
               <h2 className="text-2xl font-bold mb-6">Standort</h2>
               <div className="rounded-lg shadow-md overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.1019653987705!2d8.755927076906147!3d52.07787366886875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba6adf4d6f867b%3A0x3c8eec8c8aa54412!2sWasserfuhr%201%2C%2032108%20Bad%20Salzuflen!5e0!3m2!1sen!2sde!4v1761297170825!5m2!1sen!2sde"
+                  src="https://maps.google.com/maps?q=Uferstra%C3%9Fe%2048%2C%2032108%20Bad%20Salzuflen&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}

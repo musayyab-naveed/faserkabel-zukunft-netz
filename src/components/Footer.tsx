@@ -48,17 +48,12 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">Kontakt</h3>
             <address className="not-italic text-gray-300">
               <p className="mb-2">Faserkabel DG GmbH</p>
-              <p className="mb-2">Wasserfuhr 1</p>
+              <p className="mb-2">Uferstraße 48</p>
               <p className="mb-2">32108 Bad Salzuflen</p>
             </address>
             <p className="mb-1 mt-4">
               <a href="mailto:info@faserkabel.de" className="text-gray-300 hover:text-brand-green transition">
                 info@faserkabel.de
-              </a>
-            </p>
-            <p className="mb-1">
-              <a href="tel:01607777997" className="text-gray-300 hover:text-brand-green transition">
-                0160 7777 99 7
               </a>
             </p>
             <p>
